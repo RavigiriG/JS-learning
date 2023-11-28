@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp); // null = object
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Primitive), Heap (Non-primitive)
+
+let myYoutubename = "GamerDash"
+
+let anothername = myYoutubename
+anothername = "gameslife"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 = {
+    email: "user@gmail.com",
+    upi: "user@ybl",
+}
+
+let user2 = user1
+
+user2.email = "ravi@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
